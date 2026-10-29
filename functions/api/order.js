@@ -64,10 +64,36 @@ export async function onRequestPost({ request, env }) {
     }),
   });
 
-  if (!res.ok) return json({ error: "Chưa lưu được yêu cầu" }, 502);
+  if (!res.ok) {
+    const detail = await res.text().catch(() => "");
+    return json({ error: "Chưa lưu được yêu cầu", github: res.status, detail: detail.slice(0, 300) }, 502);
+  }
   return json({ ok: true, code });
 }
 
-export function onRequest() {
-  return json({ error: "Chỉ nhận POST" }, 405);
+// Mở /api/order trên trình duyệt để tự kiểm tra cấu hình (không lộ token)
+export async function onRequestGet({ env }) {
+  const out = {
+    function_chay: true,
+    GH_REPO: env.GH_REPO || "(chưa đặt)",
+    GH_TOKEN: env.GH_TOKEN ? "đã đặt, bắt đầu bằng " + String(env.GH_TOKEN).slice(0, 11) + "…" : "(chưa đặt)",
+  };
+  if (env.GH_REPO && env.GH_TOKEN) {
+    const r = await fetch(`https://api.github.com/repos/${env.GH_REPO}`, {
+      headers: {
+        authorization: `Bearer ${env.GH_TOKEN}`,
+        accept: "application/vnd.github+json",
+        "user-agent": "tep-tu-lap",
+      },
+    });
+    out.github_status = r.status;
+    out.ket_luan =
+      r.status === 200 ? "Token đọc được repo. Nếu vẫn lỗi, kiểm tra quyền Issues: Read and write." :
+      r.status === 401 ? "Token sai hoặc đã hết hạn. Tạo lại token và dán lại vào GH_TOKEN." :
+      r.status === 404 ? "Sai tên repo trong GH_REPO, hoặc token chưa được cấp quyền cho repo này." :
+      "GitHub trả lỗi lạ, gửi số github_status cho Claude.";
+  } else {
+    out.ket_luan = "Thiếu biến. Thêm GH_REPO và GH_TOKEN trong Settings → Variables and Secrets, rồi Retry deployment.";
+  }
+  return json(out);
 }
