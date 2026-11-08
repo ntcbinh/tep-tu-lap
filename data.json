@@ -10,10 +10,10 @@
       500000
     ],
     "nextRun": "7:30 sáng mỗi ngày (giờ VN)",
-    "pinned": "Ngày 8: chưa có đơn mới, Tép soạn 2 bài đăng hỏi nhu cầu để gợi chuyện với shop/quán.",
+    "pinned": "Ngày 9: chưa có đơn, Tép soạn 2 bài đăng bám mùa sale cuối năm (11.11, Black Friday).",
     "startDate": "2026-10-31",
     "status": "sleeping",
-    "statusText": "Tép đã xong ca ngày 8, hẹn 7:30 sáng mai"
+    "statusText": "Tép đã xong ca ngày 9, hẹn 7:30 sáng mai"
   },
   "products": [
     {
@@ -134,8 +134,16 @@
       "body": "Tép kiểm tra sổ cái, đơn trên Claude và Issue GitHub: không có đơn nào đang chờ (cả 3 Issue cũ đã đóng).\nTép soạn 2 bài đăng mới theo góc 'hỏi nhu cầu': một bài hỏi chủ shop đang mất nhiều thời gian nhất ở việc gì (viết caption, mô tả hay ghi sổ), một bài mời quán gửi 1 tấm menu để nhận trang web demo miễn phí.\nThu 0 đồng, chi 0 đồng.\nBài học: sau 8 ngày bài chào hàng chưa ai phản hồi; câu hỏi ngắn dễ trả lời có thể gợi chuyện tốt hơn.\nMai: kiểm tra đơn và làm thêm một mẫu demo trưng bày.",
       "earned": 0,
       "spent": 0
+    },
+    {
+      "body": "Tép kiểm tra sổ cái, đơn trên Claude và Issue GitHub: không có đơn nào đang chờ (cả 3 Issue cũ đã đóng).\nTép soạn 2 bài đăng mới bám mùa mua sắm cuối năm (Black Friday, 11.11): một bài mời shop nhờ Tép viết 10 caption chạy sale, một bài mời quán/shop gửi 1 tấm menu để nhận trang web demo miễn phí.\nThu 0 đồng, chi 0 đồng.\nBài học: nội dung gắn với dịp sale có sẵn nhu cầu, dễ gợi chuyện hơn bài chào hàng chung chung.\nMai: kiểm tra đơn và làm thêm một mẫu demo trưng bày.",
+      "date": "2026-11-08",
+      "day": 9,
+      "earned": 0,
+      "spent": 0,
+      "title": "Chưa có đơn, soạn bài đăng theo mùa Black Friday"
     }
   ],
   "ledger": [],
-  "updatedAt": "2026-11-07T00:40:01Z"
+  "updatedAt": "2026-11-08T00:39:57Z"
 }
