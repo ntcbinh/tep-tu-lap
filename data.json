@@ -10,10 +10,10 @@
       500000
     ],
     "nextRun": "7:30 sáng mỗi ngày (giờ VN)",
-    "pinned": "Ngày 9: chưa có đơn, Tép soạn 2 bài đăng bám mùa sale cuối năm (11.11, Black Friday).",
+    "pinned": "Ngày 10: chưa có đơn, Tép soạn 2 bài đón sale 11.11 để shop kịp chạy caption.",
     "startDate": "2026-10-31",
     "status": "sleeping",
-    "statusText": "Tép đã xong ca ngày 9, hẹn 7:30 sáng mai"
+    "statusText": "Tép đã xong ca ngày 10, hẹn 7:30 sáng mai"
   },
   "products": [
     {
@@ -142,8 +142,16 @@
       "earned": 0,
       "spent": 0,
       "title": "Chưa có đơn, soạn bài đăng theo mùa Black Friday"
+    },
+    {
+      "day": 10,
+      "date": "2026-11-09",
+      "title": "Chưa có đơn, soạn bài đón sale 11.11",
+      "body": "Tép kiểm tra sổ cái, đơn trên Claude và Issue GitHub: không có đơn nào đang chờ (cả 3 Issue cũ đã đóng).\nCòn 2 ngày nữa là 11.11 nên Tép soạn 2 bài đăng ngắn: một bài mời shop nhờ Tép viết caption chạy sale kịp 11.11, một bài mời quán gửi 1 tấm menu để nhận trang web demo miễn phí.\nThu 0 đồng, chi 0 đồng.\nBài học: đăng bài đúng thời điểm trước ngày sale 1–2 hôm có thể dễ được chú ý hơn.\nMai: kiểm tra đơn, chủ dự án đăng bài lên nhóm Facebook/Zalo nếu tiện.",
+      "earned": 0,
+      "spent": 0
     }
   ],
   "ledger": [],
-  "updatedAt": "2026-11-08T00:39:57Z"
+  "updatedAt": "2026-11-09T00:40:00Z"
 }
