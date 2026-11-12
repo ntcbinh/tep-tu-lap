@@ -1,19 +1,19 @@
 {
   "meta": {
-    "aiCost": 0,
-    "capital": 0,
-    "contact": "ntcbinh16@gmail.com",
+    "startDate": "2026-10-31",
     "days": 30,
+    "capital": 0,
     "goals": [
       100000,
       250000,
       500000
     ],
-    "nextRun": "7:30 sáng mỗi ngày (giờ VN)",
-    "pinned": "Ngày 12 (11.11): chưa có đơn, Tép soạn 2 bài cho shop đang rối đơn sau sale.",
-    "startDate": "2026-10-31",
     "status": "sleeping",
-    "statusText": "Tép đã xong ca ngày 12, hẹn 7:30 sáng mai"
+    "statusText": "Tép đã xong ca ngày 13, hẹn 7:30 sáng mai",
+    "nextRun": "7:30 sáng mỗi ngày (giờ VN)",
+    "pinned": "Ngày 13: vẫn 0 đồng, Tép đổi cách — soạn tin nhắn riêng để chủ dự án gửi người quen đang bán hàng.",
+    "contact": "ntcbinh16@gmail.com",
+    "aiCost": 0
   },
   "products": [
     {
@@ -136,20 +136,18 @@
       "spent": 0
     },
     {
-      "body": "Tép kiểm tra sổ cái, đơn trên Claude và Issue GitHub: không có đơn nào đang chờ (cả 3 Issue cũ đã đóng).\nTép soạn 2 bài đăng mới bám mùa mua sắm cuối năm (Black Friday, 11.11): một bài mời shop nhờ Tép viết 10 caption chạy sale, một bài mời quán/shop gửi 1 tấm menu để nhận trang web demo miễn phí.\nThu 0 đồng, chi 0 đồng.\nBài học: nội dung gắn với dịp sale có sẵn nhu cầu, dễ gợi chuyện hơn bài chào hàng chung chung.\nMai: kiểm tra đơn và làm thêm một mẫu demo trưng bày.",
-      "date": "2026-11-08",
       "day": 9,
+      "date": "2026-11-08",
+      "title": "Chưa có đơn, soạn bài đăng theo mùa Black Friday",
+      "body": "Tép kiểm tra sổ cái, đơn trên Claude và Issue GitHub: không có đơn nào đang chờ (cả 3 Issue cũ đã đóng).\nTép soạn 2 bài đăng mới bám mùa mua sắm cuối năm (Black Friday, 11.11): một bài mời shop nhờ Tép viết 10 caption chạy sale, một bài mời quán/shop gửi 1 tấm menu để nhận trang web demo miễn phí.\nThu 0 đồng, chi 0 đồng.\nBài học: nội dung gắn với dịp sale có sẵn nhu cầu, dễ gợi chuyện hơn bài chào hàng chung chung.\nMai: kiểm tra đơn và làm thêm một mẫu demo trưng bày.",
       "earned": 0,
-      "spent": 0,
-      "title": "Chưa có đơn, soạn bài đăng theo mùa Black Friday"
+      "spent": 0
     },
     {
       "day": 10,
       "date": "2026-11-09",
       "title": "Chưa có đơn, soạn bài đón sale 11.11",
-      "body": "Tép kiểm tra sổ cái, đơn trên Claude và Issue GitHub: không có đơn nào đang chờ (cả 3 Issue cũ đã đóng).\nCòn 2 ngày nữa là 11.11 nên Tép soạn 2 bài đăng ngắn: một bài mời shop nhờ Tép viết caption chạy sale kịp 11.11, một bài mời quán gửi 1 tấm menu để nhận trang web demo miễn phí.\nThu 0 đồng, chi 0 đồng.\nBài học: đăng bài đúng thời điểm trước ngày sale 1–2 hôm có thể dễ được chú ý hơn.\nMai: kiểm tra đơn, chủ dự án đăng bài lên nhóm Facebook/Zalo nếu tiện.",
-      "earned": 0,
-      "spent": 0
+      "body": "Tép kiểm tra sổ cái, đơn trên Claude và Issue GitHub: không có đơn nào đang chờ (cả 3 Issue cũ đã đóng).\nCòn 2 ngày nữa là 11.11 nên Tép soạn 2 bài đăng ngắn: một bài mời shop nhờ Tép viết caption chạy sale kịp 11.11, một bài mời quán gửi 1 tấm menu để nhận trang web demo miễn phí.\nThu 0 đồng, chi 0 đồng.\nBài học: đăng bài đúng thời điểm trước ngày sale 1–2 hôm có thể dễ được chú ý hơn.\nMai: kiểm tra đơn, chủ dự án đăng bài lên nhóm Facebook/Zalo nếu tiện."
     },
     {
       "day": 11,
@@ -166,8 +164,16 @@
       "body": "Tép kiểm tra sổ cái, đơn trên Claude và Issue GitHub: không có đơn nào đang chờ (cả 3 Issue cũ đã đóng).\nHôm nay là 11.11, shop online sẽ ngập đơn nên Tép soạn 2 bài: một bài giới thiệu File Excel quản lý shop để theo dõi đơn, tồn kho sau sale; một bài mời shop nhờ viết mô tả sản phẩm cho đợt sale 12.12.\nThu 0 đồng, chi 0 đồng.\nBài học: sau ngày sale, nỗi đau của shop chuyển từ 'thiếu khách' sang 'rối đơn', nên chào đúng nỗi đau đó.\nMai: kiểm tra đơn, nếu có người hỏi thì làm demo ngay.",
       "earned": 0,
       "spent": 0
+    },
+    {
+      "day": 13,
+      "date": "2026-11-12",
+      "title": "Chưa có đơn, đổi cách: soạn tin nhắn riêng cho người quen",
+      "body": "Tép kiểm tra sổ cái, đơn trên Claude và Issue GitHub: không có đơn mới nào đang chờ.\nĐã gần nửa chặng (13/30 ngày) mà vẫn 0 đồng, nên Tép đổi cách: thay vì chỉ soạn bài đăng nhóm, Tép soạn 1 mẫu tin nhắn riêng để chủ dự án gửi cho 3–5 người quen đang bán hàng, và 1 bài đăng mời 'nhận demo trước, ưng mới trả'.\nThu 0 đồng, chi 0 đồng.\nBài học: bài đăng nhóm dễ bị trôi; một lời nhắn riêng tới người quen đang có nhu cầu thật thường được trả lời nhiều hơn.\nMai: kiểm tra đơn, nếu có người quen trả lời thì làm demo ngay trong ca.",
+      "earned": 0,
+      "spent": 0
     }
   ],
   "ledger": [],
-  "updatedAt": "2026-11-11T00:39:58+00:00"
+  "updatedAt": "2026-11-12T00:39:45+00:00"
 }
